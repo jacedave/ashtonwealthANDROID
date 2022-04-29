@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/BottomLogo"
+        android:columnCount="2"
+        android:rowCount="12"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/callOfficeContacts"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/call_us"
+            android:backgroundTint="@color/Ashton_Blue"
+            app:srcCompat="@drawable/ic_baseline_call_110" />
+
+        <ImageButton
+            android:id="@+id/textOffice"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="50dp"
+            android:contentDescription="@string/text_our_office"
+            android:backgroundTint="@color/Ashton_Blue"
+            app:srcCompat="@drawable/ic_baseline_message_110" />
+
+        <TextView
+            android:id="@+id/text_contact"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/call_us"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/textOfficeText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:textAlignment="center"
+            android:text="@string/text_our_office"
+            android:textSize="14sp"/>
+
+        <ImageButton
+            android:id="@+id/emailOffice"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/email_our_office"
+            android:backgroundTint="@color/Ashton_Blue"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/ic_baseline_email_24" />
+
+        <ImageButton
+            android:id="@+id/scheduleAppt"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="50dp"
+            android:contentDescription="@string/schedule_a_phone_call"
+            android:backgroundTint="@color/Ashton_Blue"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/ic_baseline_calendar_month_110" />
+
+        <TextView
+            android:id="@+id/emailOfficeText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/email_our_office"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/sceduleApptText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:textAlignment="center"
+            android:text="@string/schedule_a_phone_call"
+            android:textSize="14sp"/>
+
+        <ImageButton
+            android:id="@+id/textAFriend"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/text_friend"
+            android:backgroundTint="@color/Ashton_Blue"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ic_baseline_message_110" />
+
+        <ImageButton
+            android:id="@+id/referralPassalong"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="50dp"
+            android:contentDescription="@string/give_us_a_referral"
+            android:backgroundTint="@color/Ashton_Blue"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ic_baseline_person_add_alt_1_24" />
+
+        <TextView
+            android:id="@+id/textAFriendText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/text_friend"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/scheduleApptText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:textAlignment="center"
+            android:text="@string/give_us_a_referral"
+            android:textSize="14sp"/>
+
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/BottomLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/app_name">
+    </ImageView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

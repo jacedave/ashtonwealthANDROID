@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "445966330044",
+    "project_id": "ashton-wealth",
+    "storage_bucket": "ashton-wealth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445966330044:android:c681bc0ae01f12583848b9",
+        "android_client_info": {
+          "package_name": "com.ashtonwealth.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445966330044-ltr5immvsm5u6lusl4ql28k22u2onm4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxuPqMP7fQ26TBwQSQX--n3Y6yFWGFtEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445966330044-ltr5immvsm5u6lusl4ql28k22u2onm4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

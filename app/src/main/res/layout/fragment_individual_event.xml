@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/event_name"
+        android:textSize="32sp"
+        android:id="@+id/event_name"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/event_name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_location"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:id="@+id/event_location"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_date"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:id="@+id/event_date"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_description"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:id="@+id/event_description"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/share_button"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:text="@string/share"/>
+
+</LinearLayout>

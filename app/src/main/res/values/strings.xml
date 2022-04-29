@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Ashton Wealth</string>
+    <string name="title_home">Home</string>
+    <string name="title_events">Events</string>
+    <string name="title_contact">Contact &amp; Refer</string>
+    <string name="home_bio">Welcome to the Ashton and Associates app! Please utilize this app to conveniently reach out to our team, or explore the other features we have available.</string>
+    <string name="call_us">Call our office!</string>
+    <string name="navigate_to_the_office">Navigate to the office</string>
+    <string name="facebook">Follow us on Facebook!</string>
+    <string name="instagram">Follow us on Instagram!</string>
+    <string name="twitter">Follow us on Twitter!</string>
+    <string name="blueleaf">BLUELEAF</string>
+    <string name="text_our_office">Text our office!</string>
+    <string name="email_our_office">Email our office!</string>
+    <string name="schedule_a_phone_call">Schedule a phone call!</string>
+    <string name="text_friend">Invite a friend to contact us!</string>
+    <string name="give_us_a_referral">Send us a referral!</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_location">Event Location</string>
+    <string name="event_description">Event description</string>
+    <string name="share">Share</string>
+    <string name="event_date">Event Date</string>
+    <string name="shred_description">Bring all of your old documents that need shredding, we will have the shred truck come in, and Hook\'d on Bowls as the food truck.</string>
+    <string name="shred_location">Ashton and Associates Office</string>
+    <string name="shred_event">Shred Event</string>
+    <string name="pickleball_description">Bring your best pickleball game! We will have a tournament, as well as a clinic for beginers and a section to just have fun. Come out and have a great time with us!</string>
+    <string name="pickleball_location">Little Valley Pickleball Courts</string>
+    <string name="pickleball_event">Pickleball Event</string>
+</resources>
